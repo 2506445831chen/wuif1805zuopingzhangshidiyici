@@ -1,0 +1,254 @@
+@import url("../jiegoucss/rem.css");
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 1.57rem;
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+.box{
+	width: 1.55rem;
+	height: 1.16rem;
+	background: #000;
+	font-size: 0.6rem;
+	line-height: 1.16rem;
+	font-weight: 500;
+	text-align: center;
+	color: red;
+}
+.box1{
+	width: 1.15rem;
+	height: 1.16rem;
+	background: #000;
+	font-size: 0.6rem;
+	line-height:1.16rem;
+	font-weight: 500;
+	text-align: center;
+	color: red;
+}
+.box1 i{
+	font-size: 0.6rem;
+	line-height: 0.54rem;
+	font-weight: 500;
+}
+.box i{
+	font-size: 0.6rem;
+	line-height: 0.54rem;
+	font-weight: 500;
+}
+/* 头部结束  */
+.first-box{
+	width: 100%;
+	height: 1.59rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('../img/timg.gif');
+}
+form{
+	width: 6rem;
+	height: 0.9rem;
+	border-radius: 0.1rem;
+	border: 0.03rem solid #ff6700;
+	display: flex;
+	justify-content: center
+}
+.box-third{
+	width: 0.66rem;
+	height: 0.9rem;
+	font-size: 0.6rem;
+	color: #fff;
+	background: #ff6700;
+}
+input{
+	width: 4.9rem;
+	height: 0.9rem;
+	outline: none;
+}
+/* 三行开始 */
+.box-three{
+	width: 100%;
+	height: 5.06rem;
+	position: relative;
+}
+.box-three img{
+	width: 100%;
+	height: 5.06rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.box-three ul{
+	position: absolute;
+	width: 1.9rem;
+	height: 0.24rem;
+	bottom:0.23rem;
+	left: 4.46rem;
+	display: flex;
+	justify-content: space-between;
+}
+.box-three ul li{
+	width: 0.24rem;
+	height: 0.24rem;
+	border-radius: 50%;
+	background: #ca415b;
+}
+.box-three ul li:first-child{
+	background: #4c1623;
+}
+/* 四行开始 */
+.boxfour{
+	width: 100%;
+	height: 4.64rem;
+	background: url('../img/timg.gif');
+	background-size:100% 4.64rem;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+
+}
+.boxfour .boxcopy{
+	width: 1.25rem;
+	height: 100%;
+	font-size: 0.66rem;
+	text-align: center;
+	background: url('../img/timg (4).jpg');
+}
+/* 第五行开始 */
+.boxfive{
+	width: 100%;
+	height: 3.64rem;
+	display: flex;
+	justify-content: space-around;
+}
+.boxfive .boxcopy2{
+	width: 3.51rem;
+	height: 3.61rem;
+}
+.boxfive .boxcopy2 img{
+	width: 3.51rem;
+	height: 3.61rem;
+}
+/* 六行开始 */
+.boxsix{
+	width: 100%;
+	height: 9.38rem;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.boxsix .copy3{
+	width: 2.41rem;
+	height: 0.83rem;
+	border-bottom: 0.08rem solid#ff3131;
+	font-size: 0.56rem;
+	color: #434343;
+}
+.boxsix .copy4{
+	width: 8.64rem;
+	height: 4.07rem;
+}
+.boxsix .copy4 img{
+	width: 8.64rem;
+	height: 4.07rem;
+}
+/* 七行开始 */
+.boxseven{
+	width: 100%;
+	height: 4.95rem;
+}
+.boxseven img{
+	width: 100%;
+	height: 4.95rem;
+}
+/* 八行 */
+.boxright{
+	width: 100%;
+	height: 1.03rem;
+	display: flex;
+	justify-content: space-between;
+}
+.boxright .boxcopy6{
+	width: 2.41rem;
+	height: 1.03rem;
+	font-size: 0.36rem;
+	color: #629cfd;
+	line-height: 1.03rem;
+	text-align: center;
+}
+.boxright .boxcopy5{
+	width: 1.81rem;
+	height: 1.03rem;
+	font-size: 0.26rem;
+	color: #9b9b9b;
+	line-height: 1.03rem;
+	text-align: center;
+}
+/* 九行 */
+.boxnine{
+	width: 100%;
+	height: 21.43px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.boxnine .boxcopy7{
+	width: 5.34rem;
+	height: 5.33rem;
+
+}
+.boxnine img{
+	width: 5.34rem;
+	height: 5.33rem;
+}
+/* 九行结束 */
+section{
+	margin-bottom: 1.43rem;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 1.43rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	background:black;
+	color: #fff;
+	justify-content: space-around;
+	border-top:0.01rem solid #989898;
+}
+.footer1{
+	width: 1.24rem;
+	height: 1.43rem;
+	font-size: 0.3rem;
+
+}
+.footer1 i{
+	font-size: 0.59rem;
+}
+.footer1 a{
+	display: block;
+	width: 1.24rem;
+	color: #fff;
+	height: 1.23rem;
+	margin-top: 0.3rem;
+}
+.footer1 a span{
+	display: block;
+}
+.footer1:nth-child(1) a{
+	color: #ff6700;
+}

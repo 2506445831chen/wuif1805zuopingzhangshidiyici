@@ -1,0 +1,327 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+header{
+	width: 100%;
+	height: 60px;
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	
+}
+ header .main{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+ header .main .title{
+ 	color: #fa3447;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 60px;
+ }
+ header .main .nav .lost{
+ 	display: none;
+ }
+  header .main .nav a{
+  	color: #434F5B;
+    font-weight: 500;
+    line-height: 60px;
+    margin-right: 10px
+  }
+   header .main .nav a i{
+   	font-size: 36px;
+   	color: #fff;
+   }
+   header .main .nav a:first-child{
+   	color: #fff;
+   	background-attachment: fixed
+   }
+
+   @media screen and (min-width:768px){
+   	header .main .nav .lost{
+ 	display: inline;
+ }
+    header .main .nav a i{
+    	display: none;
+    }
+}
+
+
+
+.banner{
+	width: 100%;
+	margin-top: 60px;
+	background: url('file:///C:/Users/25064/Desktop/%E5%93%8D%E5%BA%94%E5%BC%8F%E4%B8%AA%E4%BA%BA%E7%BD%91%E9%A1%B5%E6%A8%A1%E6%9D%BF/images/bg.png')fixed;
+	padding: 120px 0 180px;
+
+}
+
+ .box{
+
+	background: rgba(33, 42, 63, 0.5);
+    color: white;
+    display: inline-block;
+    padding: 20px 40px;
+	text-align: center;
+}
+.banner .box p{
+	font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+    color: white;
+	margin: 0 0 10px;
+}
+.banner .box p:nth-child(4){
+	font-size: 14px;
+}
+.banner .box h1{
+	font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 7px double #fa3447;
+    border-top: 7px double #fa3447;
+    line-height: 1.5;
+}
+.banner .box h3{
+	font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+
+}
+.banner .box p span{
+	font-size: 15px;
+    font-weight: 400;
+    color: #83D3C9;
+}
+.banner .box a{
+	text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff ;
+    padding: 15px 22px;
+    margin-top: 20px;
+    line-height: 4;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner .box a:hover{
+	background: rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+/* banner结束 */
+.jieshao{
+	padding: 40px 0px;
+	text-align: center;
+}
+.jieshao p{
+	width: 75%;
+    margin: 0 auto;
+    font-weight: 400;
+    color: #2E2E2E;
+    font-size: 16px;
+}
+.feature .title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+	font-weight: 700;
+}
+.feature .con{
+	padding: 69px 0;
+}
+.feature .con .row li{
+	margin: 30px 0;
+  height: 115px;
+}
+.feature .con .pic{
+	text-align: center;
+}
+.feature .con .pic img{
+	width: 80px;
+	height: 80px;
+}
+.feature .con .text{
+	text-align: center;
+}
+.feature .con .text h2{
+	margin-top: 0;
+	color: #2e2e2e;
+    font-weight: 400;
+    font-size: 25px;
+}
+.feature .con .text p{
+	font-weight: 400;
+    font-size: 15px;
+    color: #2E2E2E;
+}
+
+  @media screen and (min-width:768px ){
+	.feature .con .text{
+		text-align: left;
+	}
+  }
+
+
+/* 作品展示开始 */
+  .works{
+  	padding:60px 0 ;
+  }
+.works .title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+	font-weight: 700;
+}
+.works .con{
+	padding-right: 15px;
+    padding-left: 15px;
+}
+.works .con ul li{
+	position: relative;
+	margin: 20px 0;
+	overflow: hidden;
+}
+.works .con ul li .mohu{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+  background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.5);
+  text-align: center;
+  line-height: 200px;
+  top: -200px;
+  left: 0;
+}
+.works .con ul li:hover .mohu{
+	transform: translate(0,200px);
+  transition: all 1s;
+
+}
+.works .con .img{
+	width: 100%;
+}
+.works .con .img img{
+	width: 100%;
+  height: 200px;
+}
+.works .con h3{
+	text-align: center;
+    padding: 15px 0px;
+    font-size: 15px;
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    background: #8ab839;
+    color: #fff;
+    margin: 0px;
+}
+/*  作品展示结束*/
+/* 结尾小图 */
+.smallpic{
+	color: white;
+    text-align: center;
+    width: 100%;
+    background: rgba(33, 42, 63, 1);
+}
+.smallpic .con{
+	padding: 80px 0px;
+}
+.smallpic .con ul li{
+	padding-top: 30px;
+}
+.smallpic .con ul li span{
+	font-size: 40px;
+    color: #8ab839;
+}
+.smallpic .con ul li h5{
+	font-size: 12px;
+    font-weight: 700;
+}
+/*  个人信息栏 */
+.infor{
+	width: 100%;
+	padding: 60px 0px;
+}
+.infor .container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.infor .container .title{
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group input{
+	padding: 12px 12px;
+	margin-bottom: 30px;
+}
+ .infor .container .form-group textarea{
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.infor .container form button{
+	color: #fff;
+    background-color: #8AB839;
+    border-color: #fff;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+.infor .container .add{
+    height: 150px;
+}
+.infor .container .add-rule span{
+	color:  #8AB839;
+}
+  @media screen and (min-width:768px ){
+	.infor .container{
+		width: 750px;
+	}
+  }
+  @media screen and (min-width:990px ){
+	.infor .container{
+		width: 970px;
+	}
+  }
+  @media screen and (min-width:1200px ){
+	.infor .container{
+		width: 1170px;
+	}
+  }
+/* 底部脚本 */
+.notes-bg{
+	background: rgba(33, 42, 63, 0.9);
+    padding: 80px 0px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 30px;
+}
+.btneff{
+	background-color: #8ab839;
+    border: none;
+    color: #fff;
+    padding: 13px 0px;
+    width: 100% !important;
+    font-size: 17px;
+}
+/* footer */
