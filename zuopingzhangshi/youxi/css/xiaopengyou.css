@@ -53,6 +53,10 @@ header{
 	justify-content: space-around;
 	align-content: space-around;
 	flex-wrap: wrap;
+	margin-top: 1rem;
+}
+.boxfive .boxshu:first-child{
+	background: #b4a9ae;
 }
 .boxfive .boxgrop{
 	width: 2.47rem;
@@ -61,4 +65,18 @@ header{
 	font-size: 0.46rem;
 	text-align: center;
 	line-height: 1.11rem;
+	margin-top: 0.5rem;
 }
+.boxsix .picbox a img{
+	width: 5rem;
+	height: 3rem;
+}
+.boxsix{
+	font-size: 0.9rem;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+

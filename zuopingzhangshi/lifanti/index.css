@@ -30,6 +30,9 @@ body{
 	perspective: 1000px;
 	perspective-origin:bottom left;
 }
+.box:hover ul{
+	display: block;
+}
 .box ul{
 	width: 100%;
 	height: 100%;
@@ -37,10 +40,12 @@ body{
 	position: absolute;
 	list-style: none;
 	transform-style:preserve-3d;
+	display: none;
 }
 .box ul:hover{
-	transform: rotateX(180deg) rotateZ(180deg);
-	transition: all 2s linear 1s;
+	transform: scale(2) rotateX(180deg) rotateZ(180deg);
+	transition: all 2s linear 1s ;
+	/* animation-iteration-count: infinite; */
 }
 .box ul li{
 	width: 200px;
@@ -58,6 +63,7 @@ body{
 	line-height: 200px;
 	color: red;
 	opacity: 0.2;
+	animation: change 4s infinite;
 }
 .box:hover .box1{
 	transform: translateZ(100px);
@@ -89,3 +95,20 @@ body{
 	background: black;
 	transition: all 1s;
 }
+
+ @keyframes change{
+	20%{
+ 	background:black; 
+ }
+    20%{
+	background: blue;
+     }
+    20%{
+	background: yellow;
+     }
+    40%{
+	background: #02f8c7;
+     }
+ }
+
+ 
