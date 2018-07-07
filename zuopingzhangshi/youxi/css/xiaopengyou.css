@@ -16,6 +16,9 @@ header{
 	justify-content: space-between;
 	align-items: center
 }
+section{
+	background: #264862;
+}
 .box{
 	width: 1.55rem;
 	height: 1.16rem;
@@ -47,16 +50,17 @@ header{
 }
 /* 游戏开始 */
 .boxfive{
-	width: 100%;
+	width:100%;
 	height: 7.50rem;
 	display: flex;
 	justify-content: space-around;
 	align-content: space-around;
-	flex-wrap: wrap;
 	margin-top: 1rem;
+	overflow: scroll;
 }
-.boxfive .boxshu:first-child{
-	background: #b4a9ae;
+.boxfive .boxshu{
+	width: 2.47rem;
+	margin: 0.3rem
 }
 .boxfive .boxgrop{
 	width: 2.47rem;
@@ -73,10 +77,13 @@ header{
 }
 .boxsix{
 	font-size: 0.9rem;
+	color:#42ac52;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: center;
 }
-
+.boxsix p{
+	color: #333;
+}
